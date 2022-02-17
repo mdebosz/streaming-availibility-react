@@ -8,6 +8,7 @@ export const colors = {
   active: "hsla(0deg, 0%, 100%, 0.1)",
   info: "hsl(176deg,61%,48%)",
   white: "hsl(0deg,0%,100%)",
+  white01op: "hsla(0deg, 0%, 100%, 0.1)",
   black: "hsl(0deg,0%,0%)",
   dark: "hsl(240deg,3%,15%)",
   dark05op: "hsla(240deg,3%,15%, 0.5)",

@@ -1,16 +1,12 @@
 import { CSSProperties } from "react"
 import styled from "styled-components";
-import { colors } from "ui/pallete"
+import { colors, Pallete } from "ui/pallete"
 
 type ButtonVariants = "PRIMARY" | "SECONDARY" | "OUTLINED";
 
 type ButtonStyles = Required<
 & Pick<CSSProperties, "color" | "backgroundColor" | "borderColor"| "borderRadius" | "fontSize" | "fontWeight" |"padding">
 & { "hoverBackgroundColor": CSSProperties['backgroundColor'], "hoverColor"?: CSSProperties['color'] }>
-
-export type Pallete<TVariants extends string, TStyles> = {
-  [variant in TVariants]: TStyles
-}
 
 const styles: Pallete<ButtonVariants, ButtonStyles> = {
   PRIMARY: {
