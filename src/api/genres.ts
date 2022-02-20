@@ -1,7 +1,7 @@
 import { api } from './api';
 
 export interface Genres {
-  [key: string]: string
+  [key: number]: string
 }
 
 export const getGenres = async () => {

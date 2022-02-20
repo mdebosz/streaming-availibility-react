@@ -8,9 +8,10 @@ module.exports = {
     "plugin:jsx-a11y/recommended"
   ],
   "rules": {
-    "no-shadow": "error",
     "prefer-const": "warn",
     "no-console": "warn",
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
     "@typescript-eslint/prefer-readonly": "off",
     "@typescript-eslint/no-implicit-any-catch": "warn",
     "@typescript-eslint/no-unsafe-call": "warn",
